@@ -1,0 +1,21 @@
+.active-link{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 800px) {
+
+    
+    nav-part2{
+        display: none;
+    }
+    nav-part3{
+        display: none;
+    }
+   .menu{
+    display: block;
+    position: absolute;
+    right: 5px;
+    height: 40px;
+   }
+}
